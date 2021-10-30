@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="index.css" rel="stylesheet">
+    <link href="./fontawesome/css/all.css" rel="stylesheet">.main-window
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    
+    .sidebar
+    {
+        left: 0%;
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        background-color: rgb(27, 26, 59);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 3rem;
+        flex-direction: column;
+    }
+    
+    .img-container
+    {
+        content: "\2B22";
+        width: 50%;
+        height: 20%;
+        clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .cv-img
+    {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .sidebar ul
+    {
+        padding: 0;
+        list-style: none;
+    }
+    
+    .sidebar ul p
+    {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .sidebar ul li
+    {
+        margin-top: 10px;
+        list-style: none;
+        color: gray;
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    /* Main Portion */
+    
+    .cv-main
+    {
+        position: absolute;
+        width: 80%;
+        flex-direction: column;
+        left: 23%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        justify-content: flex-start;
+    }
+    
+    .cv-main h2
+    {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    
+    .cv-main ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .main-ul-1 p
+    {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .main-ul-1 li
+    {
+        left: 0%;
+        margin-top: 5px;
+        list-style: none;
+        color: gray;
+        font-size: 14px;
+    }
+    <script src="./fontawesome/js/all.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 main-window">
+                <div class="sidebar">
+
+                    <div class="img-container">
+                        <img alt="no data" src="./person5.jpg" class="cv-img" />
+                    </div>
+
+                    <ul style="margin-top: 1rem;">
+                        <p><u>About Me</u></p>
+                        <li>Date of birth</li>
+                        <li>Age</li>
+                        <li>Gender</li>
+                        <li>birth Place</li>
+                    </ul>
+
+
+                    <ul>
+                        <p><u>Contact</u></p>
+                        <li> <i class="fa fa-map-marker fa-lg" style="color: white; margin-right: 0.3rem;"></i>
+                            Date of birth</li>
+                        <li><i class="fa fa-phone fa-lg" style="color: white; margin-right: 0.3rem;"></i>
+                            Age</li>
+                        <li><i class="fa fa-car fa-lg" style="color: white; margin-right: 0.3rem;"></i>
+                            Gender</li>
+                        <li><i class="fa fa-car fa-lg" style="color: white; margin-right: 0.3rem;"></i>
+                            birth Place</li>
+                    </ul>
+
+                    <ul>
+                        <p><u>Interest</u></p>
+                        <li>Date of birth</li>
+                        <li>Age</li>
+                        <li>Gender</li>
+                        <li>birth Place</li>
+                    </ul>
+
+                </div>
+
+                <div class="cv-main">
+                    <h2>fatima akram</h2>
+                    <p style="font-size: 10px; font-weight: bold;">WEB DEVELOPER</p>
+
+
+                    <u style="font-weight: bold; font-size: 20px; margin-top: 1rem;">CAREER OBJECTIVE</u>
+                    <p style="font-size: 12px;">Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s,
+                        when an unknown</br> printer took a galley of type and scrambled
+                        when an unknown printer took a galley of type and scrambled</p>
+
+                    <div style="display: flex; flex-direction: row; justify-content: start;
+                     align-items:start; margin-top: 2rem;width: 100%;">
+                        <ul class="main-ul-1">
+                            <p><u>EDUCATION</u></p>
+                            <li style="display: flex; flex-direction: row;">
+                                <p style="margin-right: 10px;">
+                                    2018</p>Date of birth
+                            </li>
+                            <li style="display: flex; flex-direction: row;">
+                                <p style="margin-right: 10px;">
+                                    2018</p>Date of birth
+                            </li>
+                            <li style="display: flex; flex-direction: row;">
+                                <p style="margin-right: 10px;">
+                                    2018</p>Date of birth
+                            </li>
+                            <li style="display: flex; flex-direction: row;">
+                                <p style="margin-right: 10px;">
